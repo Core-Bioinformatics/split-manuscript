@@ -1,4 +1,6 @@
-# Bulk ChIPseq data
+## This document summarises the data analysis performed in the ChIPseq section of the manuscript:
+## The sum of two halves may be different from the whole. Effects of splitting sequencing samples across lanes 
+## Eleanor C. Williams, Ruben Chazarra-Gil, Arash Shahsavari, and Irina Mohorianu
 
 #The paper presenting this data can be accessed at https://pubmed.ncbi.nlm.nih.gov/31078527/
 #The 0h and 12h samples were used for H3K4me3 and H3K27ac (SRR7624381,SRR7624384 and SRR7624389,SRR7624392 respectively)
