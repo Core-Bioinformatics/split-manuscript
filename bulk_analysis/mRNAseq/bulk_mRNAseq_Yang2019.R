@@ -1,4 +1,6 @@
-# Bulk mRNAseq data
+## This document summarises the data analysis performed in the bulk mRNAseq section of the manuscript:
+## The sum of two halves may be different from the whole. Effects of splitting sequencing samples across lanes 
+## Eleanor C. Williams, Ruben Chazarra-Gil, Arash Shahsavari, and Irina Mohorianu
 
 #The paper presenting this data can be accessed at https://pubmed.ncbi.nlm.nih.gov/31078527/
 #The 0h and 12h samples were used and there are 2 biological replicates for each (SRR7624365,SRR7624366 and SRR7624371,SRR7624372 respectively)
