@@ -6,3 +6,5 @@ In this study, we illustrate qualitative and quantitative differences in results
 We conclude that the observed reduction in the number of unique sequenced fragments reduces the level of detail on which the different prediction approaches depend. Further, the sequencing stochasticity adds in a weighting bias corroborated with variable sequencing depths.
 
 Preprint: https://www.biorxiv.org/content/10.1101/2021.05.10.443429v1
+
+This project was presented at the UK Conference of Bioinformatics and Computational Biology on 29th September 2021. The slides can be found <a href="https://github.com/Core-Bioinformatics/splitting-manuscript/blob/main/slides/UKCBCB%20slides.pdf" target="_blank">here</a>.
