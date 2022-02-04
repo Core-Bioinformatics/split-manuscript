@@ -15,9 +15,9 @@
 #For k=2
 #cat [subsample 1] [subsample 2] > [output_filename]
 
-#Alignment using STAR
-#STAR --genomeDir [Mus musculus genome] --readFilesIn [sample] --outSAMtype BAM SortedByCoordinate \
-#--readFilesCommand zcat --runMode alignReads --outFileNamePrefix [output prefix]
+#Alignment using bowtie2
+#bowtie2 -p 5 -q --local -x [Mus musculus genome] -U [sample] -S [output SAM name]
+#samtools view -h -S -b -q 5 -o [output BAM name] [output SAM name]
 
 #Peak calling using macs2
 #macs2 callpeak -t [BAM file] -f BAM --outdir [output directory] -n [output name prefix]
