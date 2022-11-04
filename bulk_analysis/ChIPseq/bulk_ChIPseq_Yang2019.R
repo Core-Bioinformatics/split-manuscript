@@ -7,9 +7,9 @@
 
 #Preprocessing ------------------------------------------------------------------
 
-#Subsampling (using the randomReadSubSample script from the metameta package: https://github.com/dsquintana/metameta)
-#For k=2
-#python3 randomReadSubSample.py -f [fastq file] -s 0.5 -r 0 -g 1 -o [output_prefix]
+#Subsampling (using seqtk)
+#e.g. for k=2
+#seqtk sample -s1 [full fastq file] [0.5*full fastq sequencing depth] > [output file]
 
 #Concatenating
 #For k=2
